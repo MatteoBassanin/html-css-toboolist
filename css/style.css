@@ -69,8 +69,19 @@ h2::before{
     font-size: 12px;
 }
 
+.negative::before{
+    content: "\2715";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
 .edit{
     background-color: #39AAFF;
+    
 }
 
 .colored{
@@ -93,5 +104,13 @@ h2::before{
 }
 
 .mobile{
+    background-color: #FA9B00;
+}
+
+.web{
     background-color: #EC4A9D;
+}
+
+.sale{
+    background-color: #A3D214;
 }
