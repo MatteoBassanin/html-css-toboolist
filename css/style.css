@@ -51,10 +51,12 @@ main{
 
 section{
     margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 h2::before{
-    content: "\2714";
+    content: "\2713";
+    margin-right: 5px;
 }
 
 .positive::before{
@@ -63,4 +65,33 @@ h2::before{
     border: 1px solid #6DD8C5;
     border-radius: 50%;
     padding: 1px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.edit{
+    background-color: #39AAFF;
+}
+
+.colored{
+    border-radius: 10px;
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.line{
+    margin-bottom: 15px;
+}
+
+.goal{
+    background-color: #AB5DE6;
+}
+
+.recruit{
+    background-color: #2CC7AB;
+}
+
+.mobile{
+    background-color: #EC4A9D;
 }
