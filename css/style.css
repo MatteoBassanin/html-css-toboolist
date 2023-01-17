@@ -15,12 +15,14 @@ h1{
     line-height: 50px;
     font-size: 50px;
     vertical-align:super;
+    
 }
 
 main{
     background-color: #39AAFF;
     padding: 1px;
     height: 700px;
+    color: #424851;
     
 }
 
@@ -37,7 +39,7 @@ main{
 .container-bottons{
     margin: 20px;
     padding: 20px;
-    border-bottom: 1px solid #F6F8F9;
+    border-bottom: 1px solid #F6F8F9 ;
 }
 
 
@@ -56,6 +58,9 @@ section{
     margin-bottom: 20px;
 }
 
+h2{
+    margin-bottom: 10px;
+}
 
 h2::before{
     content: "\2713";
@@ -67,7 +72,7 @@ h2::before{
     color: #6DD8C5;
     border: 1px solid #6DD8C5;
     border-radius: 50%;
-    padding: 1px;
+    padding: 3px;
     margin-right: 10px;
     font-size: 12px;
 }
@@ -77,7 +82,7 @@ h2::before{
     color: red;
     border: 1px solid red;
     border-radius: 50%;
-    padding: 1px;
+    padding: 3px;
     margin-right: 10px;
     font-size: 12px;
 }
