@@ -35,13 +35,24 @@ main{
 .container-bottons{
     margin: 20px;
     padding: 20px;
+    border-bottom: 1px solid #F6F8F9;
 }
 
 
 .click{
     border-radius: 3px;
+    padding: 5px;
+    border: none;
 }
 
 .task{
     background-color:  #39AAFF;
+}
+
+section{
+    margin-left: 40px;
+}
+
+h2::before{
+    content: "\2714";
 }
