@@ -31,3 +31,17 @@ main{
     border-radius: 5px;
     
 }
+
+.container-bottons{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.click{
+    border-radius: 3px;
+}
+
+.task{
+    background-color:  #39AAFF;
+}
